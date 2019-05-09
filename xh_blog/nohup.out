@@ -1,0 +1,22 @@
+Invalid HTTP_HOST header: '119.23.59.185:8001'. You may need to add '119.23.59.185' to ALLOWED_HOSTS.
+Bad Request: /
+[09/May/2019 03:04:17] "GET / HTTP/1.1" 400 60546
+Invalid HTTP_HOST header: '119.23.59.185:8001'. You may need to add '119.23.59.185' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[09/May/2019 03:04:18] "GET /favicon.ico HTTP/1.1" 400 60595
+Invalid HTTP_HOST header: '119.23.59.185:8001'. You may need to add '119.23.59.185' to ALLOWED_HOSTS.
+Bad Request: /blog/index
+[09/May/2019 03:04:56] "GET /blog/index HTTP/1.1" 400 60656
+Invalid HTTP_HOST header: '119.23.59.185:8001'. You may need to add '119.23.59.185' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[09/May/2019 03:04:57] "GET /favicon.ico HTTP/1.1" 400 60605
+[09/May/2019 03:13:56] "GET /blog/index/ HTTP/1.1" 200 5197
+[09/May/2019 03:13:58] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:14:00] "GET /blog/archives/ HTTP/1.1" 200 4551
+[09/May/2019 03:14:01] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:14:03] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:14:04] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:14:48] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:14:59] "GET /blog/detail/1/ HTTP/1.1" 200 4702
+[09/May/2019 03:25:08] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:25:10] "GET /blog/detail/3/ HTTP/1.1" 200 4029
