@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768ae4ac-78ff-4cea-8966-929cfc4cad98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/xh_blog/xh_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/xh_blog/xh_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xh_blog/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/xh_blog/article/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xh_blog/article/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/xh_blog/article/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xh_blog/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/xh_blog/article/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,35 +44,35 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="8" />
-          <entry key="py" value="11" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="8" />
-          <entry key="Python" value="11" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="178" />
-          <entry key="py" value="841" />
+          <entry key="py" value="860" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="178" />
-          <entry key="Python" value="841" />
+          <entry key="Python" value="860" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xh_blog/xh_blog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="396">
               <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
@@ -79,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xh_blog/article/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+            <state relative-caret-position="374">
+              <caret line="50" column="77" lean-forward="true" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -95,10 +97,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xh_blog/article/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1557382896603" expanded="true" signature="117:122" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xh_blog/article/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="200">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -143,22 +158,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xh_blog/xh_blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#631#663#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xh_blog/article/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="154">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="40" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -182,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xh_blog/article/models.py" />
         <option value="$PROJECT_DIR$/xh_blog/article/admin.py" />
         <option value="$PROJECT_DIR$/xh_blog/article/templates/test.html" />
         <option value="$PROJECT_DIR$/xh_blog/article/templates/valine。html.html" />
@@ -197,9 +199,10 @@
         <option value="$PROJECT_DIR$/xh_blog/article/urls.py" />
         <option value="$PROJECT_DIR$/xh_blog/article/templates/tag.html" />
         <option value="$PROJECT_DIR$/xh_blog/article/templates/home.html" />
-        <option value="$PROJECT_DIR$/xh_blog/article/views.py" />
-        <option value="$PROJECT_DIR$/xh_blog/article/templates/base.html" />
         <option value="$PROJECT_DIR$/xh_blog/xh_blog/settings.py" />
+        <option value="$PROJECT_DIR$/xh_blog/article/templates/base.html" />
+        <option value="$PROJECT_DIR$/xh_blog/article/models.py" />
+        <option value="$PROJECT_DIR$/xh_blog/article/views.py" />
       </list>
     </option>
   </component>
@@ -209,7 +212,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="225" />
     <option name="y" value="42" />
     <option name="width" value="1400" />
@@ -332,16 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xh_blog/article/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1557300735576" expanded="true" signature="86:91" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xh_blog/article/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -406,16 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xh_blog/article/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xh_blog/article/templates/tag.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -423,13 +406,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xh_blog/article/views.py">
+    <entry file="file://$PROJECT_DIR$/xh_blog/xh_blog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -442,15 +422,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xh_blog/article/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        <state relative-caret-position="374">
+          <caret line="50" column="77" lean-forward="true" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xh_blog/xh_blog/settings.py">
+    <entry file="file://$PROJECT_DIR$/xh_blog/article/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1557382896603" expanded="true" signature="117:122" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xh_blog/article/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xh_blog/article/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

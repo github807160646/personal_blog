@@ -101,3 +101,10 @@ SyntaxError: invalid syntax
 [09/May/2019 05:55:08] "GET / HTTP/1.1" 200 5197
 [09/May/2019 05:55:11] "GET / HTTP/1.1" 200 5197
 [09/May/2019 05:55:20] "GET /blog/index/ HTTP/1.1" 200 5197
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 09, 2019 - 03:44:38
+Django version 2.1.8, using settings 'xh_blog.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
