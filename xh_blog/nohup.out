@@ -54,3 +54,50 @@ Traceback (most recent call last):
     <<<<<<< HEAD
      ^
 SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "manage.py", line 15, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 325, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python3.7/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python3.7/site-packages/django/conf/__init__.py", line 44, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python3.7/site-packages/django/conf/__init__.py", line 107, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/xuhang_blog/personal_blog/xh_blog/xh_blog/settings.py", line 28
+    <<<<<<< HEAD
+     ^
+SyntaxError: invalid syntax
+[09/May/2019 03:44:42] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:44:44] "GET /blog/detail/3/ HTTP/1.1" 200 4029
+[09/May/2019 03:44:46] "GET /blog/detail/2/ HTTP/1.1" 200 4023
+[09/May/2019 03:44:49] "GET /blog/detail/1/ HTTP/1.1" 200 4702
+[09/May/2019 03:45:00] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:45:02] "GET /blog/archives/ HTTP/1.1" 200 4551
+[09/May/2019 03:45:08] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:45:10] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:45:11] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:45:12] "GET /blog/archives/ HTTP/1.1" 200 4551
+[09/May/2019 03:45:14] "GET / HTTP/1.1" 200 5197
+[09/May/2019 03:45:15] "GET /blog/aboutme/ HTTP/1.1" 200 3270
+[09/May/2019 03:45:18] "GET / HTTP/1.1" 200 5197
+[09/May/2019 05:50:12] "GET /blog/detail/3/ HTTP/1.1" 200 4029
+[09/May/2019 05:50:14] "GET / HTTP/1.1" 200 5197
+[09/May/2019 05:54:55] "GET / HTTP/1.1" 200 5197
+[09/May/2019 05:55:07] "GET /blog/archives/ HTTP/1.1" 200 4551
+[09/May/2019 05:55:08] "GET / HTTP/1.1" 200 5197
+[09/May/2019 05:55:11] "GET / HTTP/1.1" 200 5197
+[09/May/2019 05:55:20] "GET /blog/index/ HTTP/1.1" 200 5197
