@@ -10,6 +10,7 @@ urlpatterns = [
     path('aboutme/',views.about_me, name = 'aboutme'),
     path('searchtag/<slug:tag>', views.search_tag,name = 'search_tag'),
     path('search/',views.blog_search ,name ='search'),
+    path('message/',views.message,name = 'message'),
     url(r'^feed/$', views.RSSFeed(), name = "RSS"),  #新添加的urlconf, 并将name设置为RSS, 方便在模板中使用url
 
 
