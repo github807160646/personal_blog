@@ -25,12 +25,6 @@ SECRET_KEY = 'iq$w(hih1(7$rxtq#^f%j^e8tp)#d1dw_!0%4mt(d(ma8+zyd8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
-=======
-
-ALLOWED_HOSTS = ['*',]
-
->>>>>>> 9546f1c592d75ef3cc1f9f62e11d9eae0ceba36e
 
 ALLOWED_HOSTS = ['*',]
 
