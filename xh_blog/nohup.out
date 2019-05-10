@@ -108,3 +108,46 @@ May 09, 2019 - 03:44:38
 Django version 2.1.8, using settings 'xh_blog.settings'
 Starting development server at http://0.0.0.0:8001/
 Quit the server with CONTROL-C.
+[09/May/2019 06:31:25] "GET /blog/index/ HTTP/1.1" 200 5176
+[09/May/2019 06:31:39] "GET /blog/index/ HTTP/1.1" 200 5176
+[09/May/2019 06:31:41] "GET /blog/feed/ HTTP/1.1" 200 1810
+[09/May/2019 06:32:26] "GET /blog/feed/ HTTP/1.1" 200 1810
+[09/May/2019 06:32:27] "GET /blog/feed/ HTTP/1.1" 200 1810
+[09/May/2019 06:37:36] "GET /blog/index/ HTTP/1.1" 200 5176
+[09/May/2019 06:37:38] "GET / HTTP/1.1" 200 5176
+[09/May/2019 06:37:39] "GET / HTTP/1.1" 200 5176
+[09/May/2019 06:37:42] "GET /blog/detail/1/ HTTP/1.1" 200 4681
+[09/May/2019 06:37:45] "GET /blog/index/ HTTP/1.1" 200 5176
+[09/May/2019 06:37:46] "GET /blog/index/ HTTP/1.1" 200 5176
+[09/May/2019 06:37:48] "GET /blog/archives/ HTTP/1.1" 200 4530
+[09/May/2019 06:37:50] "GET /blog/archives/ HTTP/1.1" 200 4530
+[09/May/2019 06:37:53] "GET /blog/searchtag/Python HTTP/1.1" 200 4685
+[09/May/2019 06:37:56] "GET /blog/searchtag/java HTTP/1.1" 200 3930
+[09/May/2019 06:39:37] "GET / HTTP/1.1" 200 5176
+[09/May/2019 06:40:12] "GET /blog/search/?s=%E5%8F%8D%E5%B0%84 HTTP/1.1" 200 3654
+[09/May/2019 06:41:42] "GET /blog/search/?s=%E5%93%88%E5%93%88 HTTP/1.1" 200 3282
+[09/May/2019 06:42:09] "GET /blog/search HTTP/1.1" 301 0
+[09/May/2019 06:42:09] "GET /blog/search/ HTTP/1.1" 302 0
+[09/May/2019 06:42:10] "GET / HTTP/1.1" 200 5176
+[09/May/2019 11:27:17] "GET / HTTP/1.1" 200 5176
+Not Found: /favicon.ico
+[09/May/2019 11:27:19] "GET /favicon.ico HTTP/1.1" 404 2182
+[09/May/2019 11:27:28] "GET / HTTP/1.1" 200 5176
+Not Found: /favicon.ico
+[09/May/2019 11:27:28] "GET /favicon.ico HTTP/1.1" 404 2182
+[09/May/2019 11:28:00] "GET / HTTP/1.1" 200 5176
+Not Found: /favicon.ico
+[09/May/2019 11:28:00] "GET /favicon.ico HTTP/1.1" 404 2182
+[09/May/2019 11:28:08] "GET / HTTP/1.1" 200 5176
+Not Found: /favicon.ico
+[09/May/2019 11:28:09] "GET /favicon.ico HTTP/1.1" 404 2182
+Not Found: /favicon.ico
+[09/May/2019 11:28:13] "GET /favicon.ico HTTP/1.1" 404 2182
+[09/May/2019 11:28:20] "GET /blog/searchtag/java HTTP/1.1" 200 3930
+Not Found: /favicon.ico
+[09/May/2019 11:28:20] "GET /favicon.ico HTTP/1.1" 404 2182
+Not Found: /favicon.ico
+[09/May/2019 11:28:22] "GET /favicon.ico HTTP/1.1" 404 2182
+[10/May/2019 02:19:11] "GET / HTTP/1.1" 200 5176
+Not Found: /favicon.ico
+[10/May/2019 02:19:11] "GET /favicon.ico HTTP/1.1" 404 2182
