@@ -42,6 +42,8 @@ class RSSFeed(Feed) :
 #     post_list = Article.objects.all()  # 获取全部的Article对象
 #     return render(request, 'home.html', {'post_list': post_list})
 
+def message(request):
+    return  render(request,'message.html')
 
 def detail(request, id):
     try:

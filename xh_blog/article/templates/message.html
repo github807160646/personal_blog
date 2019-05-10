@@ -1,0 +1,16 @@
+#post.html
+{% extends "base.html" %}
+{% load custom_markdown %}
+
+{% block content %}
+<div class="posts">
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'OFoCMFAdJHUmSVRWikHN6mUA-gzGzoHsz',
+            appKey: 'QonbXGVh9Ps1I9PANwVc0fGS'
+        })
+    </script>
+</div><!-- /.blog-post -->
+{% endblock %}
