@@ -53,6 +53,7 @@
                     </li>
                 </ul>
             </nav>
+             <div id="hot-comments" class="header-subtitle"></div>
         </div>
     </div>
 
@@ -73,6 +74,14 @@
         </div>
     </div>
 </div>
+
+<script>fetch("https://api.comments.hk/").then(function (n) {
+    return n.json()
+}).then(function (n) {
+    document.getElementById("hot-comments").innerText = n.comment_content + "——来自 " + n.comment_nickname + " 在「" + n.title + "」下方的评论"
+}).catch(function (n) {
+    console.error(n)
+})</script>
 
 </body>
 </html>
