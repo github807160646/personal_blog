@@ -19,9 +19,13 @@
 <body>
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
-        <div class="header">
+         <div style="min-height: 150px"></div>
+
+        <div class="pure-u-1" style="text-align: right">
             <h1 class="brand-title"><a href="{% url 'blog:index' %}">XU HANG Blog</a></h1>
             <h2 class="brand-tagline">灰优莫儿 - humour</h2>
+            <div id="mu-image" ></div>
+            <div id="mp3-url"></div>
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
@@ -53,7 +57,7 @@
                     </li>
                 </ul>
             </nav>
-             <div id="hot-comments" class="header-subtitle"></div>
+            <div id="hot-comments" class="header-subtitle" ></div>
         </div>
     </div>
 
@@ -78,6 +82,8 @@
 <script>fetch("https://api.comments.hk/").then(function (n) {
     return n.json()
 }).then(function (n) {
+    document.getElementById("mu-image").innerHTML = "<img src=\""+n.images+"\" height=\"300\" width=\"300\" >"
+    document.getElementById("mp3-url").innerHTML = "<audio controls=\"controls\" height=\"50\" width=\"200\"><source src=\""+n.mp3_url+"\" type=\"audio/mp3\" /><embed height=\"100\" width=\"100\" src=\""+n.mp3_url+"\" /></audio>"
     document.getElementById("hot-comments").innerText = n.comment_content + "——来自 " + n.comment_nickname + " 在「" + n.title + "」下方的评论"
 }).catch(function (n) {
     console.error(n)
